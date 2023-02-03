@@ -1,62 +1,27 @@
-# Ecommerce_ShopHere
 
-E-Commerce Site:-
+# Django E-commerce Project - ShopHere
 
-This is a dynamic e-commerce website built using the Django framework.
+A dynamic e-commerce website built with Django, featuring user authentication, product listings, a shopping cart system, checkout and payment management.
 
-Features:-
-   a. User authentication and authorization.
-   b. Product listing and detail view.
-   c. Cart management.
-   d. Checkout and payment processing.
-   e. Order history and tracking.
+## Requirements
+- Python 3.x
+- Django 3.x
 
-Getting Started
+## Installation
+1. Clone this repository to your local machine using `git clone <repository-url>`.
+2. Navigate to the project directory using the `cd` command.
+3. Install the required packages by running `pip install -r requirements.txt`.
+4. Run the Django development server by running `python manage.py runserver`.
+5. Open a web browser and navigate to `http://localhost:8000/` to view the e-commerce website.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+## Usage
+Visitors to the website can view the product listings and product details without logging in. 
+To add a product to the cart or to the wish list, you will need to log in with a registered account.
 
-Prerequisites:-
-You will need the following software installed on your computer:
+- To register a new account, click the "Sign Up" button on the login page and fill in the required information.
+- To log in, enter your username and password on the login page.
+- Once logged in, you can add a product to the cart by clicking the "Add to Cart" button on the product detail page.
+- To view your cart and checkout, click the "Cart" button in the navigation bar.
+- You can also add a product to your wish list by clicking the "Heart Button" as wishlist on the product detail page.
 
-    Python 3.x
-    Django 2.x
-    PostgreSQL or any other database system supported by Django
 
-Installing
-  1. Clone the repository:
-   -> git clone https://github.com/KABITATHUYAJU98/Ecommerce_ShopHere.git
-
-  2. Navigate to the project directory:
-  -> cd ecommerce_site
-
-  3. Create a virtual environment:
-  -> python -m venv env
-
-  4. Activate the virtual environment:
-On Windows:
-env\Scripts\activate
-
-On Linux or macOS:
-source env/bin/activate
-
-  5. Install the required packages:
-  -> pip install -r requirements.txt
-
-  6. Configure the database:
-  Update the DATABASES setting in the settings.py file with the correct credentials for your database system.
-
-  7.Migrate the database:
-  ->python manage.py migrate
-
-  8. Create a superuser:
-  ->python manage.py createsuperuser
-
-   9. Run the development server:
-  ->python manage.py runserver
-
-The site will be available at http://127.0.0.1:8000/.
-Built With:-
-    Django - The web framework used.
-    Bootstrap - Front-end component library.
-    Jquer | Ajax - For Functions
-    
