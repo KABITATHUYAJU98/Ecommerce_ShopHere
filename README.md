@@ -11,8 +11,9 @@ A dynamic e-commerce website built with Django, featuring user authentication, p
 1. Clone this repository to your local machine using `git clone <repository-url>`.
 2. Navigate to the project directory using the `cd` command.
 3. Install the required packages by running `pip install -r requirements.txt`.
-4. Run the Django development server by running `python manage.py runserver`.
-5. Open a web browser and navigate to `http://localhost:8000/` to view the e-commerce website.
+4. Migrate the database  `python manage.py migrate`.
+5. Run the Django development server by running `python manage.py runserver`.
+6. Open a web browser and navigate to `http://localhost:8000/` to view the e-commerce website.
 
 ## Usage
 Visitors to the website can view the product listings and product details without logging in. 
