@@ -24,7 +24,7 @@ You will need the following software installed on your computer:
 
 Installing
   1. Clone the repository:
-   -> git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
+   -> git clone https://github.com/KABITATHUYAJU98/Ecommerce_ShopHere.git
 
   2. Navigate to the project directory:
   -> cd ecommerce_site
